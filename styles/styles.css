@@ -69,6 +69,11 @@ body {
     color: #0E0E0ECC;
 }
 
+
+.text-center {
+    text-align: center;
+}
+
 /*--------------- common styles end-------------- */
 
 
@@ -326,4 +331,59 @@ body {
 .news-box-info-description {
     margin-top: 12px;
     margin-bottom: 32px;
+}
+
+/* Donate Styles */
+.donate-description {
+    margin: 0px 90px;
+    margin-bottom: 32px;
+}
+
+.taka-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px 104px;
+}
+
+.taka {
+    color: #0E0E0ECC;
+    padding-left: 25px;
+    padding-top: 40px;
+    width: 210px;
+    height: 128px;
+    font-size: 32px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.taka:hover {
+    background: #C6E4D6;
+    cursor: pointer;
+}
+
+.input-box {
+    width: 900px;
+    height: 64px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin: 22px 0px;
+    margin-left: 145px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.donate button {
+    margin-left: 510px;
+    margin-bottom: 80px;
 }
