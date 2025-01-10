@@ -11,6 +11,7 @@
 
 body {
     margin: 0px 160px;
+    background-color: aliceblue;
 }
 
 .btn-primary {
@@ -33,7 +34,19 @@ body {
     cursor: pointer;
 }
 
+
+.dark-2 {
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /*--------------- common styles end-------------- */
+
+
+
+
+
 
 
 /* --------------- nav var styles ----------------*/
@@ -51,6 +64,7 @@ body {
 }
 
 .btn-sign-up {
+    background-color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     color: #006A50;
@@ -59,7 +73,12 @@ body {
     border-radius: 8px;
     width: 140px;
     height: 60px;
+}
 
+.btn-sign-up:hover {
+    background: linear-gradient(to bottom, red, orange);
+    cursor: pointer;
+    color: white;
 }
 
 /*-------------- nav-bar styles -----------------end */
@@ -102,3 +121,37 @@ body {
 }
 
 /* -------------  banner style end ------------- */
+
+/* ---------------piller seciton ------------*/
+
+.piller-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.piller-boxes {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.piller-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    width: 302px;
+    height: 244px;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
