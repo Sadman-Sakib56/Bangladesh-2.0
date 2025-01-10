@@ -34,6 +34,28 @@ body {
     cursor: pointer;
 }
 
+.btn-secondary {
+    position: static;
+    width: 180px;
+    height: 56px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+
+    background: linear-gradient(to bottom, red, orange);
+    cursor: pointer;
+}
+
+
+
 
 .dark-2 {
     color: #0E0E0EB3;
@@ -151,7 +173,7 @@ body {
     background: rgb(255, 255, 255);
     padding: 25px;
     width: 302px;
-    height: 244px;
+    height: 280px;
 }
 
 .box-title {
@@ -265,3 +287,43 @@ body {
 
 
 /* vision section style end */
+
+
+
+/* ----------- News Section Styles ------------- */
+
+.news-section-description {
+    margin-bottom: 32px;
+}
+
+.news-box {
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    margin-bottom: 24px;
+}
+
+.news-box>img {
+    border-radius: 24px;
+    background-color: red;
+}
+
+.news-box-info-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+}
+
+.news-box-info-img {
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+
+}
+
+.news-box-info-description {
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
